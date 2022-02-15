@@ -1,0 +1,125 @@
+html {
+  font-size: 62.5%;
+}
+nav .container-fluid {
+  width: 90%;
+}
+.logo {
+  height: 50px;
+}
+a {
+  text-decoration: none;
+}
+nav a {
+  color: #0095ff;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.tab-wrapper,
+.tab-content {
+  height: 88vh;
+}
+.tab-wrapper {
+  background: #0195ff;
+}
+.nav-tabs {
+  background: #0095ff;
+  padding-top: 6rem;
+  border-bottom: 0;
+}
+.nav-tabs .nav-link {
+  color: #8ab4d7;
+  text-align: left;
+  font-size: 1.2rem;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+  color: #fff;
+  background: #55b8ff;
+  border: 0;
+}
+.nav-tabs .nav-link img {
+  height: 20px;
+  margin-right: 1.5rem;
+}
+.tab-pane {
+  padding: 1rem 6rem;
+}
+.tab-pane h3,
+.facility-form .upload {
+  color: #0094ff;
+}
+.create-facility p,
+.facility-form p,
+.logo-wrapper {
+  color: #bec4c7;
+}
+.logo-section {
+  width: 50%;
+}
+.logo-wrapper {
+  background: #e5e5e5;
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+  border-radius: 100%;
+}
+#logo-file {
+  visibility: hidden;
+}
+.facility-form 
+.get-started,
+.facility-form p {
+  font-size: 1.2rem;
+}
+.facility-form {
+  width: 60%;
+}
+.facility-form label {
+  color: #6b7074;
+}
+.facility-form .form-control,
+.facility-form .form-select {
+  height: 3.8rem;
+}
+.facility-form label,
+.facility-form .form-control,
+.facility-form .form-select {
+  font-size: 1.4rem;
+}
+.facility-form .form-check-inline {
+  display: flex;
+  align-items: center;
+}
+.facility-type label {
+  font-size: 1.3rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.facility-form p {
+  width: 60%;
+} 
+.text-right {
+  text-align: right;
+}
+.facility-form .btn.btn-primary {
+  background: #0094ff;
+  border-color: #0094ff;
+  font-size: 1.2rem;
+  padding: 0.75rem 4rem;
+}
+.overflow-y {
+  overflow-y: auto;
+}
+
+
+@media screen and (max-width: 576px) {
+  .tab-pane {
+    padding: 1rem;
+  }
+  .facility-form,
+  .logo-section {
+    width: 100%;
+  }
+}
